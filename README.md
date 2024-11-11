@@ -1,4 +1,4 @@
-# FitPro Gym SQL Project
+# FitPro - Gym Basic SQL Project
 
 ![Project Image Placeholder](https://github.com/Tusharpsharma/FitPro---Basic-SQL-Project/blob/main/Fitpro_logo%5B1%5D.png) 
 
