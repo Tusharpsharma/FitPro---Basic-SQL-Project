@@ -55,25 +55,22 @@ Here’s an overview of the database structure:
 
 The following queries were created to solve specific business questions. Each query is designed to provide insights based on gym membership and visit data.
 
-1. Retrieve the **name** and **membership_type** of female members.
-2. Find members who have a **Monthly membership** and joined after **2023-11-01**.
-3. List the **name** and **status** of active members over **25**.
-4. Get details of **visits** on a specific date (**2024-01-01**).
-5. List members with a **Quarterly membership** aged between **20 and 30**.
+1.	   Retrieve all details of members who have a Cancelled membership.
+2.	   Find all members who are Male and have a Weekly membership type, and order the result by join_date.
+3.	   Get a list of distinct member ages.
+4.	   Retrieve the name, membership_type, and join_date of all members who joined after 2023-10-01, ordered by join_date in ascending order.
+5.	   Count the total number of visits made by each member, grouping by member_id.
+6.	   Retrieve the membership_type and the count of members for each membership type.
+7.	   Get the names and ages of members who have a Monthly membership and are younger than 25, using WHERE.
+8.	   Retrieve the number of visits for each visit_date, ordered by visit_date.
+9.	   Find the average age of members who have a Quarterly membership type.
+10.	Retrieve the name, membership_type, and status of members who are Active and Monthly, ordered by status.
+11.	Count the number of members with each membership_type, using GROUP BY and HAVING to show only those with more than 1 member.
+12.	Find the name of the member who has made the most visits, ordered by total_visits.
+13.	Retrieve the list of name and status of members who have Cancelled status and joined before 2023-11-01, and limit the result to 3 rows.
+14.	Find the average age of members with Active status, grouped by membership_type.
+15.	Retrieve all visit details (date, check-in, check-out) for the first 5 visits, ordered by visit_date in descending order.
 
-Additional aggregations and grouping:
-6. Count total visits made by each member.
-7. Count members by membership type (e.g., Monthly, Weekly, Quarterly).
-8. Calculate the average age of members, grouped by membership type.
-9. Total visits for each visit date.
-10. Count members by status (e.g., Active or Cancelled).
-
-Advanced queries:
-11. Top 3 members with the highest visits.
-12. Active Monthly members grouped by membership type, sorted by recent join dates.
-13. Members with more than 2 visits, sorted by total visits, displaying the top 5.
-14. Members who joined in 2023, grouped by membership type (where each group has >1 member).
-15. Average age of active members, grouped by membership type, limited to the top 3 results.
 
 ---
 
@@ -109,7 +106,7 @@ If you have any questions or feedback, feel free to create an issue or reach out
 ## Contact Me
 
 📄 **[Resume](#)**  
-📧 **[Email] [maddy447@gmail.com]**  
-📞 **Phone**: +91 6284852150
+📧 **[Email] [sharma.tushar447@gmail.com]**  
+📞 **Phone**: *****
 
 --
