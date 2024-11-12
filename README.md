@@ -55,21 +55,21 @@ Here’s an overview of the database structure:
 
 The following queries were created to solve specific business questions. Each query is designed to provide insights based on gym membership and visit data.
 
-	Retrieve all details of members who have a Cancelled membership.
-	Find all members who are Male and have a Weekly membership type, and order the result by join_date.
-	Get a list of distinct member ages.
-	Retrieve the name, membership_type, and join_date of all members who joined after 2023-10-01, ordered by join_date in ascending order.
-	Count the total number of visits made by each member, grouping by member_id.
-	Retrieve the membership_type and the count of members for each membership type.
-	Get the names and ages of members who have a Monthly membership and are younger than 25, using WHERE.
-	Retrieve the number of visits for each visit_date, ordered by visit_date.
-	Find the average age of members who have a Quarterly membership type.
-	Retrieve the name, membership_type, and status of members who are Active and Monthly, ordered by status.
-	Count the number of members with each membership_type, using GROUP BY and HAVING to show only those with more than 1 member.
-	Find the name of the member who has made the most visits, ordered by total_visits.
-	Retrieve the list of name and status of members who have Cancelled status and joined before 2023-11-01, and limit the result to 3 rows.
-	Find the average age of members with Active status, grouped by membership_type.
-	Retrieve all visit details (date, check-in, check-out) for the first 5 visits, ordered by visit_date in descending order.
+-	Retrieve all details of members who have a Cancelled membership.
+-	Find all members who are Male and have a Weekly membership type, and order the result by join_date.
+-	Get a list of distinct member ages.
+-	Retrieve the name, membership_type, and join_date of all members who joined after 2023-10-01, ordered by join_date in ascending order.
+-	Count the total number of visits made by each member, grouping by member_id.
+-	Retrieve the membership_type and the count of members for each membership type.
+-	Get the names and ages of members who have a Monthly membership and are younger than 25, using WHERE.
+-	Retrieve the number of visits for each visit_date, ordered by visit_date.
+-	Find the average age of members who have a Quarterly membership type.
+-	Retrieve the name, membership_type, and status of members who are Active and Monthly, ordered by status.
+-	Count the number of members with each membership_type, using GROUP BY and HAVING to show only those with more than 1 member.
+-	Find the name of the member who has made the most visits, ordered by total_visits.
+-	Retrieve the list of name and status of members who have Cancelled status and joined before 2023-11-01, and limit the result to 3 rows.
+-	Find the average age of members with Active status, grouped by membership_type.
+-	Retrieve all visit details (date, check-in, check-out) for the first 5 visits, ordered by visit_date in descending order.
 
 
 
